@@ -71,3 +71,131 @@ export default defineConfig([
   },
 ])
 ```
+<div align="center">
+
+# 🚀 **OnboardX Widget**
+### A lightweight, embeddable onboarding experience for any website.
+
+<img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Build-Vite-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Format-IIFE-purple?style=for-the-badge" />
+
+<br />
+
+**Live Production File:**  
+### 🔗 https://onboardx-widget.vercel.app/onboardx-widget.iife.js  
+(⚠️ The base URL shows 404. This is NORMAL for widget bundles.)
+
+</div>
+
+---
+
+## ✨ Overview
+
+The **OnboardX Widget** is a plug-and-play onboarding tour system designed for SaaS platforms, dashboards, admin tools, and internal apps.
+
+Simply drop one script tag on your page and instantly enable:
+
+- 🎯 Step-by-step onboarding flows  
+- 🧭 Guided tours  
+- 📊 Analytics & event tracking  
+- ⚡ Zero-configuration embedding  
+
+---
+
+## 🛠 **Installation**
+
+Add this script to ANY website or dashboard:
+
+```html
+<script src="https://onboardx-widget.vercel.app/onboardx-widget.iife.js"></script>
+
+<script>
+  OnboardX.init({
+    userId: "demo-user",
+    tourId: "welcome-tour",
+  });
+</script>
+
+✔ Loads instantly
+✔ No framework required
+✔ Works on plain HTML, React, Next.js, Vue, Angular, anything
+
+⛔ Why does the main link show 404?
+
+Because this project outputs a widget file, not a full website.
+
+The correct file is:
+
+/onboardx-widget.iife.js
+
+
+So always use the full path:
+👉 https://onboardx-widget.vercel.app/onboardx-widget.iife.js
+
+🔧 Local Development
+
+Clone & install:
+
+npm install
+npm run dev
+
+
+Build the optimized widget:
+
+npm run build
+
+
+Bundled output will be inside:
+
+dist/onboardx-widget.iife.js
+
+📦 Project Structure
+onboardx-widget/
+│
+├── src/               # widget components + logic
+├── dist/              # final build output (IIFE bundle)
+├── index.html         # local preview only
+├── package.json
+└── README.md
+
+🚀 Deployment
+
+This project is auto-deployed on Vercel.
+When you push to main, Vercel:
+
+Builds the project
+
+Generates /dist/onboardx-widget.iife.js
+
+Serves it at your widget URL
+
+🧪 Example Usage (Advanced)
+<script>
+  OnboardX.init({
+    userId: "customer_8712",
+    tourId: "dashboard-intro",
+    onFinish: () => console.log("Tour completed!"),
+    theme: {
+      color: "#1E90FF",
+      highlight: "#FFD700"
+    }
+  });
+</script>
+
+📸 Screenshot 
+
+
+Insert an image of your widget here if you want
+
+🧑‍💻 Maintainer
+
+Sandra Analaba (Xander-kira)
+Product Engineer · HNG Stage 8
+📧 Email: optional
+🐙 GitHub: https://github.com/Xander-kira
+
+<div align="center">
+⭐ If you like this widget, give the repo a star on GitHub!
+</div> ```
+
