@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Test page</h1>
+
+<script src="./dist/onboardx-widget.js"></script>
+<script>
+  OnboardX.init({
+    steps: [
+      { id: "one", title: "Hello", body: "Welcome to the test page" },
+      { id: "two", title: "Second", body: "This is step 2" },
+      { id: "three", title: "Last", body: "Finish strong!" }
+    ],
+    onEvent: (e) => console.log("EVENT:", e)
+  });
+</script>
+
+</body>
+</html>
