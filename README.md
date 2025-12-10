@@ -186,7 +186,8 @@ Serves it at your widget URL
 📸 Screenshot 
 
 
-Insert an image of your widget here if you want
+Insert an im<img width="1919" height="956" alt="Screenshot 2025-12-10 224011" src="https://github.com/user-attachments/assets/1ddaefd5-cf10-461e-8cc7-8d6fda7ee83b" />
+age of your widget here if you want
 
 🧑‍💻 Maintainer
 
